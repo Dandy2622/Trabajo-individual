@@ -8,14 +8,20 @@
 body{
     font-family: sans-serif;
     font-size: 18px;
-    background-color:  #fff;
+    background-color:  #fff;    
+    background-image: url(https://krot.mobi/uploads/posts/2020-02/1580840958_24-p-foni-na-temu-okruzhayushchei-sredi-71.jpg);
+    height: 800px;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 /*      ENCABEZADO 
 =========================*/
 
 .header{
-    background-color:rgb(64, 255, 47);
+    background-color:rgb(47, 64, 255);
     text-align: center;
     padding: 5px 0;
     
