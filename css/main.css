@@ -22,38 +22,66 @@ body{
 
 .header{
     background-color:rgb(47, 64, 255);
-    text-align: center;
-    padding: 5px 0;
-    
+   /* text-align: center;*/
+   /* padding: 5px 0;*/
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .header-title{
     color: #fff;
-    padding: 10px 0;
+   /* padding: 10px 0;
     text-transform: uppercase;
-    position: static;
+    position: static;*/
+    font-size: 40px;
+    line-height: 200px;
+    float:left;
 }
 
 .header-description{
     color: #fff;
-    padding: 10px 0;
+    padding: 35px 60px;
+    line-height: 200px;
+    float: left;
     
 }
-
+ 
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+    
+}
 
 /*      RESPUESTA 
 =========================*/
 
 .menu{
-    text-align: center;
-    padding: 10px 0;
-    columns: red;
+    padding-right: 20px;
+    float: right;
+    line-height: 200px;
 }
 
-.menu ul li a{
+.menu ul a{
     font-size: 25px;
     font-weight:  bold;
     color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    
+    
+}
+
+.menu ul a:hover{
+    background:#4c5580;
+    border-radius: 50px;
 }
 
 /*      CONTENEDOR DE FIGURAS
